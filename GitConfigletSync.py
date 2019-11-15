@@ -8,7 +8,7 @@ import ast
 import json
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-DEBUG = 5
+DEBUG = 0
 
 # syncFrom can be either cvp or git:
 #  cvp - configlets are sync'd from cvp to the repo over commiting what's in the repo (CVP is the source of truth)
